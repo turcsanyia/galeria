@@ -1,0 +1,25 @@
+<form action="upload.php" method="post" enctype="multipart/form-data">
+    
+    <div class="form-group">
+    <input class="form-control-file" type="file" name="file" accept="image/*" required>
+    </div>
+    
+    <div class="form-group">    
+    <input class="form-control" type="text" name="title" placeholder="Kép címe" >
+    </div>
+    
+    <div class="form-group">
+    <textarea class="form-control" name="description" placeholder="Rövid leírás"></textarea>
+    <p id="countdown">10</p>
+    </div>
+    
+    
+    <div class="form-group">
+    <input type="date" class="form-control" name="date">
+    </div>
+    
+    <div class="form-group">
+    <input class="btn btn-primary form-control" type="submit" name="submit" value="Feltöltés">
+    </div>
+    
+</form>
