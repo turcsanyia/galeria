@@ -1,0 +1,290 @@
+{
+  "id": "605d0992-998e-4b90-b567-917066e06898",
+  "version": "2.0",
+  "name": "Esti_shop",
+  "url": "http://localhost/esti/esti_shop",
+  "tests": [{
+    "id": "06dbae3c-fc8f-44be-9285-e36ce1f747b6",
+    "name": "regisztráció",
+    "commands": [{
+      "id": "5f0a52b5-ec95-47e4-a518-cc77a172ae8e",
+      "comment": "",
+      "command": "open",
+      "target": "/esti/esti_shop/reg.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9fc9ca72-d08f-47d0-9f4e-efb14d8afd2b",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1112x984",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "675ed938-de35-4f7c-976a-b7086cb066f0",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef51db02-6075-467f-b67e-ddf4d0367b22",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "cim@vas.hu"
+    }, {
+      "id": "7cb7b4d9-90c0-48c8-8ca0-702dbef1c866",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a578788d-ba9b-4316-afe9-b364d2a41353",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "b957824e-c9db-4401-8573-9e10aa0e04a1",
+      "comment": "",
+      "command": "click",
+      "target": "name=confirm",
+      "targets": [
+        ["name=confirm", "name"],
+        ["css=.form-group:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='confirm']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a700a99-aadd-49a2-ad34-ec2bbdf29864",
+      "comment": "",
+      "command": "type",
+      "target": "name=confirm",
+      "targets": [
+        ["name=confirm", "name"],
+        ["css=.form-group:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='confirm']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "123456"
+    }, {
+      "id": "2b11957c-fa7e-4c87-8ef9-e3e3443a5d2e",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eff6f97a-552d-43c8-b068-0e006e30213a",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.form-group:nth-child(5) > .form-control", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "Vas Botond"
+    }, {
+      "id": "408b085f-2435-4433-8f65-7b9418a876e6",
+      "comment": "",
+      "command": "click",
+      "target": "name=address",
+      "targets": [
+        ["name=address", "name"],
+        ["css=.form-group:nth-child(6) > .form-control", "css:finder"],
+        ["xpath=//input[@name='address']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f6182bd-98c7-46aa-9adf-4c0637ff0f0c",
+      "comment": "",
+      "command": "type",
+      "target": "name=address",
+      "targets": [
+        ["name=address", "name"],
+        ["css=.form-group:nth-child(6) > .form-control", "css:finder"],
+        ["xpath=//input[@name='address']", "xpath:attributes"],
+        ["xpath=//div[5]/input", "xpath:position"]
+      ],
+      "value": "6000 Kecskemét, Katona József u. 1."
+    }, {
+      "id": "22b32d72-a07f-4320-8eec-c911a1981125",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=//input[@value='Regisztráció']", "xpath:attributes"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "599fd583-859c-4b86-9877-3c19753d1e50",
+    "name": "jelszó_teszt",
+    "commands": [{
+      "id": "c591cec5-3e63-4736-86f2-e5109b31353d",
+      "comment": "",
+      "command": "open",
+      "target": "/esti/esti_shop/reg.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14b0ddb5-ccc1-4eb3-9dc3-7ca5d77f91b2",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Regisztráció",
+      "targets": [
+        ["linkText=Regisztráció", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Regisztráció')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'reg.php')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Regisztráció')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c14211a5-5d87-44c8-aa4c-ffda50736b6f",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85d64973-2493-45d4-a60e-63bf11360351",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "fsdgdg"
+    }, {
+      "id": "5f515c8d-9d89-4534-9c7a-679329580eb8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container",
+      "targets": [
+        ["css=.container", "css:finder"],
+        ["xpath=//form[@action='#']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "504d12f0-7981-42ec-bea5-b5fad708c1f1",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "dfgsdfgfdgfg"
+    }, {
+      "id": "671544f7-feb5-4b3d-ab1d-74fb70ed99fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.container",
+      "targets": [
+        ["css=.container", "css:finder"],
+        ["xpath=//form[@action='#']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23b6ff21-cb4d-4f6d-8c90-e50b2371e048",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.form-group:nth-child(3) > .form-control", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "asdfghjkl!"
+    }, {
+      "id": "055f0928-d374-4f5c-8f1e-b7a281a96267",
+      "comment": "",
+      "command": "type",
+      "target": "name=confirm",
+      "targets": [
+        ["name=confirm", "name"],
+        ["css=.form-group:nth-child(4) > .form-control", "css:finder"],
+        ["xpath=//input[@name='confirm']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "asdfghjkl!"
+    }, {
+      "id": "7269579e-faf1-420a-885e-aaf377b00305",
+      "comment": "",
+      "command": "click",
+      "target": "css=body",
+      "targets": [
+        ["css=body", "css:finder"],
+        ["xpath=//body", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6607b18-5f97-41c4-8896-4d81061f29d2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1112x984",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "0290a1d7-45fa-459f-a77f-64d22874e0d3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://localhost/", "http://localhost/esti/esti_shop"],
+  "plugins": []
+}
