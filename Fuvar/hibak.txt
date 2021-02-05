@@ -1,0 +1,1 @@
+taxi_id;indulas;idotartam;tavolsag;viteldij;borravalo;fizetes_modja
